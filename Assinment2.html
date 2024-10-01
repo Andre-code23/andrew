@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Andrew's ltd</title>
+	<link rel="icon" href="C:\Users\AFM BUSINESS GROUP\Videos\Kamanzi Website'\image\Logo Ferrari.jpeg" 
+	type="images/*">
+	<style>
+	h2{
+  font-family: Times New roman;
+  font-size: 25px;
+  font-variant: small-caps;
+  text-decoration: green double underline;
+  text-align:left;
+}
+body{
+  text-align:left;
+  overflow-x:hidden;
+}
+p{
+  padding: 10px;
+  line-height: 1.6;
+  font-family: Times new roman;
+  text-align:left;
+}
+b{
+  color: mediumseagreen;
+  text-align:left;
+}
+
+	</style>
+	<link rel="stylesheet" href="css\style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+<div class="main">
+<h2><span>A</span>ndre's Explore<span>The </span>World</h2>
+</div>
+<section id="one">
+<div class="title-text">
+<p> Assignment Number 2 </p>
+</div>
+<h2>1. What is CSS and its purpose?</h2>
+    <p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML or XML. Its purpose is to control the layout, colors, fonts, and overall visual appearance of web pages.</p>
+
+    <h2>2. What are the different ways to apply CSS to a webpage?</h2>
+    <p><b>Inline CSS</b>: Styles are applied directly within an HTML element using the <code>style</code> attribute.<br>
+    <b>Internal CSS</b>: Styles are defined within a <code>&lt;style&gt;</code> tag in the <code>&lt;head&gt;</code> section of the HTML document.<br>
+    <b>External CSS</b>: Styles are defined in a separate <code>.css</code> file linked to the HTML document using the <code>&lt;link&gt;</code> tag.</p>
+
+    <h2>3. What is the box model in CSS?</h2>
+    <p>The box model describes the rectangular boxes generated for elements in the document tree. It consists of:<br>
+    <b>Content</b>: The actual content of the box (text, images).<br>
+    <b>Padding</b>: Space between the content and the border.<br>
+    <b>Border</b>: A line surrounding the padding (if any).<br>
+    <b>Margin</b>: Space outside the border, separating the element from others.</p>
+
+    <h2>4. Explain the difference between relative, absolute, fixed, and sticky positioning.</h2>
+    <p><b>Relative</b>: Positioned relative to its normal position. It moves without affecting the layout of other elements.<br>
+    <b>Absolute</b>: Positioned relative to its nearest positioned ancestor (not static). It removes the element from the normal document flow.<br>
+    <b>Fixed</b>: Positioned relative to the viewport, meaning it stays in the same place even when the page is scrolled.<br>
+    <b>Sticky</b>: A hybrid of relative and fixed positioning. It behaves like relative until a certain scroll position is reached, then it becomes fixed.</p>
+
+    <h2>5. What is specificity in CSS?</h2>
+    <p>Specificity determines which CSS rule is applied when multiple rules could apply to the same element. It is calculated based on the types of selectors used: <b>inline styles</b> have the highest specificity, followed by <b>IDs</b>, <b>classes</b>, attributes, and finally, <b>element selectors</b>.</p>
+
+    <h2>6. What are pseudo-classes and pseudo-elements?</h2>
+    <p><b>Pseudo-classes</b>: Keywords added to selectors that specify a special state of the selected elements (e.g., <code>:hover</code>, <code>:focus</code>).<br>
+    <b>Pseudo-elements</b>: Allow styling of a specific part of an element (e.g., <code>::before</code>, <code>::after</code>, <code>::first-line</code>).</p>
+
+    <h2>7. What is the difference between display: none; and visibility: hidden;?</h2>
+    <p><b>display: none;</b> removes the element from the document flow, meaning it takes up no space.<br>
+    <b>visibility: hidden;</b> hides the element but still takes up space in the layout.</p>
+
+    <h2>8. What is a CSS preprocessor, and name a few examples?</h2>
+    <p>A CSS preprocessor extends CSS with variables, nesting, and functions, allowing for more dynamic stylesheets. Examples include:<br>
+    <b>SASS</b> (Syntactically Awesome Style Sheets)<br>
+    <b>LESS</b><br>
+    <b>Stylus</b></p>
+
+    <h2>9. What is the z-index property and how does it work?</h2>
+    <p>The <b>z-index</b> property controls the stacking order of overlapping elements. Higher values are stacked on top of lower values. It only works on positioned elements (those with <b>position</b> set to <code>relative</code>, <code>absolute</code>, <code>fixed</code>, or <code>sticky</code>).</p>
+
+    <h2>10. Explain the concept of Flexbox.</h2>
+    <p>Flexbox (Flexible Box Layout) is a CSS layout model that allows for the design of complex layouts more easily and efficiently. It enables responsive design by distributing space along a single axis (row or column) and aligning items within a container.</p>
+
+    <h2>11. What are media queries in CSS?</h2>
+    <p>Media queries allow CSS to be applied based on the conditions of the viewport, such as width, height, orientation, etc. They enable responsive design by applying different styles for different devices or screen sizes.</p>
+
+    <h2>12. What is the difference between em, rem, and px in CSS?</h2>
+    <p><b>px</b>: A fixed unit representing pixels. It does not scale with user settings.<br>
+    <b>em</b>: A relative unit based on the font size of the element. If the font size of the parent is changed, the size of the element using <b>em</b> will also change.<br>
+    <b>rem</b>: A relative unit based on the root element's font size (usually <code>&lt;html&gt;</code>). It remains consistent regardless of parent element sizes.</p>
+
+    <h2>13. Explain grid layout in CSS.</h2>
+    <p>CSS Grid Layout is a two-dimensional layout system that allows for the creation of complex web layouts using rows and columns. It provides control over the placement of items in a grid format, enabling responsive designs with ease.</p>
+
+    <h2>14. What is the difference between inline, block, and inline-block elements?</h2>
+    <p><b>Inline</b>: Elements that do not start on a new line and only take up as much width as necessary (e.g., <code>&lt;span&gt;</code>, <code>&lt;a&gt;</code>).<br>
+    <b>Block</b>: Elements that start on a new line and take up the full width available (e.g., <code>&lt;div&gt;</code>, <code>&lt;h1&gt;</code>).<br>
+    <b>Inline-block</b>: Elements that are formatted as inline elements but can have width and height set (e.g., <code>&lt;img&gt;</code>).</p>
+
+    <h2>15. What is the purpose of calc() in CSS?</h2>
+    <p>The <code>calc()</code> function allows for dynamic calculations in CSS property values. It can combine different units (e.g., <code>calc(100% - 50px)</code>) for responsive layouts.</p>
+
+    <h2>16. Explain the opacity and rgba() in CSS.</h2>
+    <p><b>opacity</b>: A property that sets the transparency level of an element, where 0 is fully transparent and 1 is fully opaque.<br>
+    <b>rgba()</b>: A color function that defines colors using red, green, blue, and an alpha value for transparency (e.g., <code>rgba(255, 0, 0, 0.5)</code> for semi-transparent red).</p>
+
+    <h2>17. What is the difference between min-width and max-width?</h2>
+    <p><b>min-width</b>: Sets the minimum width of an element. The element cannot be smaller than this value.<br>
+    <b>max-width</b>: Sets the maximum width of an element. The element cannot exceed this value.</p>
+
+    <h2>18. What is the difference between transitions and animations in CSS?</h2>
+    <p><b>Transitions</b>: Allow for smooth changes between two states of an element (e.g., changing color on hover). They are triggered by state changes (like hover).<br>
+    <b>Animations</b>: More complex sequences that can run independently of state changes. They can involve multiple keyframes and can repeat or run automatically.</p>
+
+    <h2>19. How do you center an element horizontally and vertically using CSS?</h2>
+    <p><b>Horizontal centering</b>: Use <code>margin: auto;</code> on a block element with a set width, or use <code>text-align: center;</code> for inline elements.<br>
+    <b>Vertical centering</b>: Use Flexbox by setting <code>display: flex;</code> and <code>align-items: center;</code> on the parent, or use grid layout with <code>align-content: center;</code>.</p>
+
+    <h2>20. What is the purpose of box-sizing: border-box;?</h2>
+    <p>The <code>box-sizing: border-box;</code> property changes the box model so that padding 
+	and borders are included in the element's total width and height. This makes 
+	it easier to size elements without worrying about additional padding or borders affecting the overall size.</p>
+</section>
+</body>
+</html>

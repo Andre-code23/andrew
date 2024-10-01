@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-image: url('bgc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-image: url('foo.JPG');
+    color: white;
+    font-size: large;
+    padding: 15px 0;
+}
+
+
+nav ul {
+    border: none;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    border: none;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.img{
+    width: 100%;
+    height: 150px;
+    background-color: transparent;
+}
+
+.services, .about, .contact, .login, .signup {
+    padding: 40px 20px;
+    background: #f9f9f9;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.signup{
+    width: 50%;
+
+}
+.service-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.service-item {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 30%; /* Responsive flex item */
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(151, 149, 149, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #b2b4b2; /* Darker green on hover */
+}
+
+footer {
+    position: absolute;
+    background-image: url('Capture.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 210px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-list {
+        flex-direction: column;
+    }
+
+    .service-item {
+        margin: 10px 0;
+    }
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero {
+        height: 300px; /* Adjust height for smaller screens */
+    }
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem; /* Adjust header size */
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem; /* Adjust header size */
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .container {
+        width: 90%;   
+    }
+.assign ul li{
+    list-style: none;
+    text-align:center;
+}
+}
+ul{
+    list-style: none;
+}
+
+
+footer-div{
+	width:100%;
+	min-height:50px;
+	background-color:lightgray;
+	text-align:center;
+	margin-top:50px;
+
+}
+.social-media{
+	display:flex;
+	justify-content:center;
+	gap:25px;
+	padding:10px;
+
+}
+.social-link{
+	text-decoration:none;
+	border-radius:5px;
+	padding:10px 15px;
+	color:white;
+	
+}
+.social-link:hover{background-color:#8DECB4;
+}
+.facebook{background-color:#3b5998;}
+.twitter{background-color:#1da1f2;}
+.tiktok{background-color:black;}
+.instagram{background-color:#c13584;}
+.fa-brands{
+	background-color:white;
+	border-radius:50%;
+	padding:10px;
+	font-size:1em;
+}
+.fa-brands:hover{color:lightgray;
+	
+}
+
+
+nav p{
+   display: inline-block;
+
+}
